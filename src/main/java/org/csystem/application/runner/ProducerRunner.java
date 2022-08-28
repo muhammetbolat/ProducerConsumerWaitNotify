@@ -7,6 +7,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 
@@ -21,7 +22,6 @@ public class ProducerRunner implements ApplicationRunner {
 
     @Value("${sleep.min:0}")
     private long m_min;
-
     @Value("${sleep.min:1}")
     private long m_max;
 
@@ -51,6 +51,7 @@ public class ProducerRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) {
+        System.out.println("producer starts");
         m_threadPool.execute((this::producerCallback));
         m_threadPool.shutdown();
         System.out.println("producer ends");

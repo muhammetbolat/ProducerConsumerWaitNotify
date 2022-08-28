@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.csystem:org-csystem-util:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/csystem/org-csystem-util/unknown/org-csystem-util-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/csystem/org-csystem-util/unknown/org-csystem-util-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/csystem/org-csystem-util/unknown/org-csystem-util-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

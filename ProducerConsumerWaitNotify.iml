@@ -34,7 +34,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.9" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.28" level="project" />
     <orderEntry type="library" name="Maven: org.csystem:org-csystem-util-console:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.csystem:org-csystem-util:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.csystem:org-csystem-util:unknown" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.5.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.5.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.5.3" level="project" />

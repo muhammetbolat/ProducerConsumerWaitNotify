@@ -1,6 +1,5 @@
 package org.csystem.application.component;
 
-import org.csystem.util.thread.ThreadUtil;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -13,7 +12,6 @@ public class SharedObject {
         while (!m_produce) {
             try {
                 this.wait();
-
             } catch (InterruptedException ignore) {
             }
         }
